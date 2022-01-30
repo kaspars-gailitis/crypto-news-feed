@@ -15,7 +15,7 @@ Repo - [https://github.com/kaspars-gailitis/crypto-news-feed](https://github.com
 Website - [https://news.kasparsdev.eu](https://news.kasparsdev.eu)
 
 ### Recorded Video
-Youtube - WIP
+Youtube - https://youtu.be/7onxvd7BcQI
 
 ### Contact Info
 - Discord - LameKai#9846
