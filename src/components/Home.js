@@ -60,7 +60,8 @@ class Home extends React.Component {
   render() {
     const NewsItem = (article) => (
       <div key={article.url}>
-        <Fieldset label={<Anchor href={article.url} target='_blank' rel="noreferrer">{article.title}</Anchor>}>
+        <Fieldset label={article.source.name}>
+          <Anchor href={article.url} target='_blank' rel="noreferrer">{article.title}</Anchor>
           <p>
             <a href={article.url} target='_blank' rel="noreferrer">{article.description}</a>
           </p>
@@ -68,7 +69,6 @@ class Home extends React.Component {
           <Divider />
 
           <p className="float-left">Published at: {new Date(article.publishedAt).toLocaleString()}</p>
-          <p className="float-right">Source: {article.source.name}</p>
         </Fieldset>
         <br />
       </div>
