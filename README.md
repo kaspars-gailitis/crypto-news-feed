@@ -9,7 +9,7 @@ WIP:
 - 3 commas API integration
 
 ### Project Code
-Repo - [https://github.com/kaspars-gailitis/crypto-new-feed](https://github.com/kaspars-gailitis/crypto-new-feed)
+Repo - [https://github.com/kaspars-gailitis/crypto-news-feed](https://github.com/kaspars-gailitis/crypto-news-feed)
 
 ### Working App
 Website - [https://news.kasparsdev.eu](https://news.kasparsdev.eu)
