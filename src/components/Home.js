@@ -20,7 +20,6 @@ class Home extends React.Component {
   componentDidMount() {
     this.fetchNews()
       .then(response => {
-        console.log(response.data.articles);
         this.setState({
           newsItems: [...response.data.articles, ...this.state.newsItems],
           loading: false,
@@ -28,12 +27,11 @@ class Home extends React.Component {
       })
       .catch(error => console.log(error));
 
-    setInterval(function () {
+    setInterval(() => {
       this.fetchNews()
         .then(response => {
-          console.log(response.data.articles);
           this.setState({
-            newsItems: [...response.data.articles, ...this.state.newsItems],
+            newsItems: [...response.data.articles],
           });
         })
         .catch(error => console.log(error));
@@ -48,7 +46,6 @@ class Home extends React.Component {
 
     this.fetchNews()
       .then(response => {
-        console.log(response.data.articles);
         this.setState({
           newsItems: [...response.data.articles, ...this.state.newsItems],
           loading: false,
