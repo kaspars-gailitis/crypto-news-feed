@@ -1,9 +1,9 @@
-import { Component } from "react/cjs/react.development";
+import React from "react";
 import { Divider, Window, WindowHeader, WindowContent, Fieldset, LoadingIndicator, Anchor } from "react95";
 import { API_URL, ARTICLES_REQUEST } from "../constants";
 import axios from "axios";
 
-class Home extends Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
 

@@ -1,7 +1,7 @@
-import { Component } from "react";
+import React from "react";
 import { AppBar, Toolbar } from "react95"
 
-class CryptoPrices extends Component {
+class CryptoPrices extends React.Component {
   render() {
     return (
       <AppBar>
